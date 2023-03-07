@@ -116,8 +116,7 @@ insert into factura (tipoDocumento,numDocumento,nombre,codPago) values
 ('NIT','3340943017','Hurtado',1),
 ('NIT','3254175019','Mendoza',2),
 ('CI','5654898','Aligar',3),
-('NIT','6754125917','Estrada',1),
-('Vacio','0000','vacio',3);
+('NIT','6754125917','Estrada',1);
 
 create table detalleFactura(
 codDetalleFactura int auto_increment primary key,
